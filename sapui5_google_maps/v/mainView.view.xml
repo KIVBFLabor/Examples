@@ -1,0 +1,13 @@
+    <core:View height="100%" controllerName="v.mainView"   
+         xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"   
+         xmlns:html="http://www.w3.org/1999/xhtml">      
+        <Page id="mainPage" enableScrolling="false" title="GMaps">  
+                <VBox fitContainer="true" justifyContent="Center" alignItems="Center">  
+                    <HBox fitContainer="true" justifyContent="Center" alignItems="Center">  
+                        <Input id="inpSearch" editable="true" value="" maxLength="80"/>  
+                        <Button id="bntSearch" text="Search" tap="actSearch" />       
+                    </HBox>  
+                    <HBox id="map_canvas" fitContainer="true" justifyContent="Center" alignItems="Center" />  
+                                  </VBox>  
+        </Page>  
+    </core:View>  

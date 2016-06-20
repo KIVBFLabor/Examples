@@ -1,0 +1,7 @@
+    <core:View controllerName="v.appView"   
+         xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"   
+         xmlns:html="http://www.w3.org/1999/xhtml">      
+        <App id="appMaps">  
+            <mvc:XMLView id="mainView" viewName="v.mainView"></mvc:XMLView>  
+        </App>  
+    </core:View>  
