@@ -22,8 +22,6 @@
   "sapui5_google_maps/j/app.js": "1467106292000",
   "sapui5_google_maps/index.html": "1467106292000",
   "sapui5_google_maps/Default.cshtml": "1467106292000",
-  "README.md": "1467106292000",
-  "test_git": "1467106292000",
   "sapui5_test_data_binding_netflix/test_data_binding/webapp/view/View1.view.xml": "1467105807000",
   "sapui5_test_data_binding_netflix/test_data_binding/webapp/controller/View1.controller.js": "1467105656000",
   "sapui5_test_data_binding_netflix/test_data_binding/webapp/i18n/i18n.properties": "1467103148000",
@@ -43,5 +41,7 @@
   "sapui5_test_data_binding_netflix/test_data_binding/dist/index.html": "1467103106000",
   "sapui5_test_data_binding_netflix/test_data_binding/dist/preview_hidden.html": "1467104463000",
   "sapui5_test_data_binding_netflix/test_data_binding/dist/Component-preload.js": "1467105870000",
-  "sapui5_test_data_binding_netflix/test_data_binding/dist/resources.json": "1467105871000"
+  "sapui5_test_data_binding_netflix/test_data_binding/dist/resources.json": "1467105871000",
+  "README.md": "1467106292000",
+  "test_git": "1467106292000"
 }
