@@ -1,0 +1,16 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="test_data_binding.controller.View1">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <Input width="100%" id="__input0" placeholder="Schauspieler (Enter = Suche)" submit="on_Search"/>
+				    <List items="{path: '/'}" noDataText="Drop list items here" id="__list0" headerText="Ergebnisse">
+				        <items>
+				            <StandardListItem type="Navigation" counter="0" title="{show_title}" description="{summary}" icon="{poster}" id="__item8" adaptTitleSize="false"/>
+				        </items>
+				    </List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
