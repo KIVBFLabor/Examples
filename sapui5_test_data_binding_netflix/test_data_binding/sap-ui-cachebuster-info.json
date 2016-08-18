@@ -1,0 +1,22 @@
+{
+  "webapp/view/View1.view.xml": "1467105807000",
+  "webapp/controller/View1.controller.js": "1467105656000",
+  "webapp/i18n/i18n.properties": "1467103148000",
+  "webapp/model/models.js": "1467103106000",
+  "webapp/Component.js": "1467103106000",
+  "webapp/css/style.css": "1467103106000",
+  "webapp/manifest.json": "1467105865000",
+  "webapp/index.html": "1467103106000",
+  "webapp/preview_hidden.html": "1467104203000",
+  "dist/view/View1.view.xml": "1467105807000",
+  "dist/controller/View1.controller.js": "1467105656000",
+  "dist/i18n/i18n.properties": "1467103148000",
+  "dist/model/models.js": "1467103106000",
+  "dist/Component.js": "1467103106000",
+  "dist/css/style.css": "1467103106000",
+  "dist/manifest.json": "1467105871000",
+  "dist/index.html": "1467103106000",
+  "dist/preview_hidden.html": "1467104463000",
+  "dist/Component-preload.js": "1467105870000",
+  "dist/resources.json": "1467105871000"
+}

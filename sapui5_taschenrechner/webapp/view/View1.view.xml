@@ -1,0 +1,17 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="Rechnen.controller.View1">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <Input width="100%" id="__input0"/>
+				    <Input width="100%" id="__input1"/>
+				    <Button text="+" width="100px" id="__button0" press="add"/>
+				    <Button text="-" width="100px" id="__button2" press="minus"/>
+				    <TextArea id="__area0"/>
+				    <Button text="*" width="100px" id="__button1" press="multiplizieren"/>
+				    <Button text="/" width="100px" id="__button3" press="dividieren"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,19 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="test1000.controller.View1">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <sap.ui.layout:VerticalLayout xmlns:sap.ui.layout="sap.ui.layout" width="100%" id="__layout0">
+				        <sap.ui.layout:content>
+				            <Input width="100%" id="__input0" fieldWidth="75%" type="Number" placeholder="Zahl 1"/>
+				            <Label text="+" width="100%" id="__label1" textAlign="Center"/>
+				            <Input width="100%" id="__input1" fieldWidth="75%" type="Number" placeholder="Zahl 2"/>
+				            <Button text="Berechnen" width="100px" id="__button0" press="test"/>
+				            <Label width="100%" id="__label0" textAlign="Center"/>
+				        </sap.ui.layout:content>
+				    </sap.ui.layout:VerticalLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
