@@ -1,0 +1,42 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="z_gp_list.MAIN" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		<Button text="PDF" press="onPress" />
+		<Table id="idProductsTable"
+		inset="false"
+		items="{/d/results}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="Geschäftspartner" level="H2"/>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+				width="12em">
+				<Text text="Id" />
+				
+			</Column>
+			<Column
+				width="12em">
+				<Text text="Name" />
+				
+			</Column>
+
+			
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<Text
+						text="{partner}" />
+						<Text
+						text="{name}" />
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+	
+		</content>
+	</Page>
+</core:View>
